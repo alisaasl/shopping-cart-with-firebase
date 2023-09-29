@@ -1,0 +1,93 @@
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+    margin: 0;
+}
+
+img,
+picture {
+    max-width: 100%;
+    display: block;
+}
+
+input,
+button,
+textarea,
+select {
+    font: inherit;
+}
+
+/* general css*/
+body {
+    font-size: 20px;
+    font-family: 'Rubik', sans-serif;
+    user-select: none;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    max-width: 900px;
+    margin: 20px auto;
+}
+
+input {
+    background-color: #DCE1EB;
+    border: 0;
+    border-radius: 10px;
+    text-align: center;
+    padding: 5px;
+    margin: 10px;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+    border: 1px rgb(250, 243, 244) solid;
+    border-radius: 5px;
+    padding: 50px;
+    color: #0a0a0a;
+
+}
+
+button {
+    background-color: #2052b6;
+    border-radius: 5px;
+    border: 0;
+    padding: 10px;
+    margin: 10px;
+    box-shadow: 1px 1px 1px 1px #0a0a0a;
+    color: #fff;
+}
+
+button:hover {
+    background-color: black;
+}
+
+
+ul{
+display: flex;
+    list-style: none;
+    flex-wrap: wrap;
+    gap: 10px;
+    flex-grow: 1;
+}
+li{
+    border-radius: 8px;
+    background-color: #FFFDF8;
+    box-shadow: 0px 1px 4px rgba(158, 148, 148, 0.2);
+    padding: 15px;
+}
+li:hover{
+    background-color: #2052b6;
+    color: white;
+}
